@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.nada.technical_challenge.anagrams.AnagramsActivity;
+import com.nada.technical_challenge.arthimetic_operators.ArthimeticOperatorsActivity;
 import com.nada.technical_challenge.currency_converter.CurrencyConverterActivity;
 import com.nada.technical_challenge.fibonacci.FibonacciActivity;
 
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
 
             case R.id.button_4: {
-                Intent intent = new Intent(getApplicationContext(), ArithmeticException.class);
+                Intent intent = new Intent(getApplicationContext(), ArthimeticOperatorsActivity.class);
                 startActivity(intent);
                 break;
             }
