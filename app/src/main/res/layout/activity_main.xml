@@ -21,7 +21,7 @@
         android:padding="@dimen/_20sdp"
         android:textSize="@dimen/_20sdp"
         android:textStyle="bold"
-        android:text="arthimetic operators" />
+        android:text="arithmetic operators" />
 
     <Button
         android:id="@+id/button_1"
