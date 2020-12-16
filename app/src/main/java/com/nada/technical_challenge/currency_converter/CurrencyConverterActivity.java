@@ -43,7 +43,8 @@ public class CurrencyConverterActivity extends AppCompatActivity implements Call
         Retrofit retrofit = new Retrofit.Builder()
 //                .baseUrl("https://api.fixer.io/")
 //                .baseUrl("https://data.fixer.io/api/")
-                .baseUrl("https://data.fixer.io/api/latest?access_key=84655e6a421370727bc9e29bd80771bb")
+//                .baseUrl("https://data.fixer.io/api/latest?access_key=84655e6a421370727bc9e29bd80771bb")
+                .baseUrl("https://data.fixer.io/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
