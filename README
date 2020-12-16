@@ -1,0 +1,5 @@
+This application contains 4 button.
+button 1: contain an arthimetic operators.
+button 2: contain method to determine whether two strings are anagrams or not.
+button 3: contain 2 approaches for solving fibonacci.
+button 4: create a currency converter by using fixer.io API.
