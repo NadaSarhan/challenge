@@ -19,6 +19,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:hint="4.50"
+            android:inputType="numberDecimal"
             android:textSize="@dimen/_20sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -41,6 +42,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:hint="5"
+            android:inputType="numberDecimal"
             android:textSize="@dimen/_20sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -56,6 +58,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:hint="2.25"
+            android:inputType="numberDecimal"
             android:textSize="@dimen/_20sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -71,6 +74,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:hint="1.25"
+            android:inputType="numberDecimal"
             android:textSize="@dimen/_20sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

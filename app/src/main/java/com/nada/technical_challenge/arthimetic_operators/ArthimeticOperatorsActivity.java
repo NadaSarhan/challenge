@@ -27,10 +27,12 @@ public class ArthimeticOperatorsActivity extends AppCompatActivity implements Vi
         setContentView(R.layout.activity_arthimetic_operators);
 
         btn = (Button) findViewById(R.id.button_go);
+
         v1 = (EditText) findViewById(R.id.editText_1);
         v2 = (EditText) findViewById(R.id.editText_2);
         v3 = (EditText) findViewById(R.id.editText_3);
         v4 = (EditText) findViewById(R.id.editText_4);
+
         r = (TextView) findViewById(R.id.textView_result);
 
         btn.setOnClickListener(this);
@@ -42,7 +44,7 @@ public class ArthimeticOperatorsActivity extends AppCompatActivity implements Vi
 
         switch (v.getId()) {
 
-            case R.id.button_1: {
+            case R.id.button_go: {
                 String value1 = v1.getText().toString() ;
                 String value2 = v2.getText().toString() ;
                 String value3 = v3.getText().toString() ;

@@ -27,6 +27,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:hint="enter number"
+            android:inputType="number"
             android:textSize="@dimen/_20sdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -74,6 +75,7 @@
             android:gravity="center"
             android:hint="enter number"
             android:textSize="@dimen/_20sdp"
+            android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
