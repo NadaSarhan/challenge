@@ -13,7 +13,7 @@ import com.nada.technical_challenge.fibonacci.FibonacciActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btn1, btn2, btn3;
+    private Button btn1, btn2, btn3, btn4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +23,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn1 = (Button) findViewById(R.id.button_1);
         btn2 = (Button) findViewById(R.id.button_2);
         btn3 = (Button) findViewById(R.id.button_3);
+        btn4 = (Button) findViewById(R.id.button_4);
 
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
         btn3.setOnClickListener(this);
+        btn4.setOnClickListener(this);
 
     }
 
@@ -49,6 +51,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.button_3: {
                 Intent intent = new Intent(getApplicationContext(), CurrencyConverterActivity.class);
+                startActivity(intent);
+                break;
+            }
+
+            case R.id.button_4: {
+                Intent intent = new Intent(getApplicationContext(), ArithmeticException.class);
                 startActivity(intent);
                 break;
             }

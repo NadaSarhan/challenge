@@ -26,6 +26,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".arthimetic_operators.ArthimeticOperatorsActivity"
+            android:parentActivityName=".MainActivity" />
+
         <activity android:name=".anagrams.AnagramsActivity"
             android:parentActivityName=".MainActivity" />
 

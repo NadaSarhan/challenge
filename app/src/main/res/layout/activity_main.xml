@@ -13,6 +13,17 @@
     android:padding="@dimen/_20sdp">
 
     <Button
+        android:id="@+id/button_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/_20sdp"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:text="arthimetic operators" />
+
+    <Button
         android:id="@+id/button_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
