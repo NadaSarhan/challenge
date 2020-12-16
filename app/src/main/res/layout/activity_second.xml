@@ -6,15 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#017c8c"
+    android:padding="@dimen/_12sdp"
     tools:context="com.nada.technical_challenge.currency_converter.SecondActivity">
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
-        android:textColor="#ffffff"
+        android:textSize="@dimen/_40sdp"
         android:text="EUR to XXX"
         android:gravity="center"
         android:layout_marginBottom="20dp" />
@@ -23,8 +22,7 @@
         android:id="@+id/tvSubTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:textColor="#bebcbc"
+        android:textSize="@dimen/_24sdp"
         android:text="[ Rate 1 : xxxx ]"
         android:gravity="center"
         android:layout_marginBottom="20dp" />
@@ -37,13 +35,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:textColor="#ffffff"
+            android:textSize="@dimen/_40sdp"
             android:text="EUR: " />
 
         <EditText
-            android:textSize="40sp"
-            android:textColor="#ffffff"
+            android:textSize="@dimen/_40sdp"
             android:id="@+id/etInput"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -62,13 +58,11 @@
             android:id="@+id/tvOutputName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:textColor="#ffffff"
+            android:textSize="@dimen/_40sdp"
             android:text="XXX:" />
 
         <TextView
-            android:textSize="40sp"
-            android:textColor="#ec5959"
+            android:textSize="@dimen/_40sdp"
             android:id="@+id/tvOutputRate"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -80,10 +74,10 @@
 
     <Button
         android:id="@+id/btnCalculate"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/_16sdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
+        android:textSize="@dimen/_40sdp"
         android:text="Calculate"/>
 
 </LinearLayout>
