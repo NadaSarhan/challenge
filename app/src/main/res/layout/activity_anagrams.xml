@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="@dimen/_20sdp">
+
+    <EditText
+        android:id="@+id/editText_1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="enter first string"
+        android:textSize="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText_2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="enter second string"
+        android:textSize="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_go"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_20sdp"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:text="go" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:hint="result is here!"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

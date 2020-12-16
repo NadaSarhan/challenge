@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="@dimen/_20sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_20sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20sdp"
+            android:text="first approach"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/editText_1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="enter number"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_go1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_20sdp"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:text="go" />
+
+        <TextView
+            android:id="@+id/textView_result1"
+            android:hint="result is here!"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/_20sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20sdp"
+            android:text="second approach"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/editText_2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="enter number"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_go2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_20sdp"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:text="go" />
+
+        <TextView
+            android:id="@+id/textView_result2"
+            android:hint="result is here!"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
